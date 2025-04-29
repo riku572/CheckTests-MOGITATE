@@ -1,0 +1,24 @@
+# Laravel
+/vendor/
+/node_modules/
+/.env
+.env.*
+/bootstrap/cache/
+/storage/*.key
+/public/storage
+
+# Laravel log
+/storage/logs/*.log
+
+# Docker: MySQLのデータなど
+/docker/mysql/data/
+/docker/mysql/*.pid
+
+# OS
+.DS_Store
+Thumbs.db
+
+# その他
+*.log
+*.bak
+*.swp
